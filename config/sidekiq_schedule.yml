@@ -1,0 +1,4 @@
+my_scheduler_job:
+  cron: "*/2 * * * *"
+  class: ReminderWorker
+  queue: default
